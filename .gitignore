@@ -1,0 +1,16 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# 运行时数据（订单库/checkpointer/向量库）——克隆后跑 scripts/build_mock_db.py 重建
+data/
+
+# 环境变量/密钥
+.env
+
+# 系统/IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

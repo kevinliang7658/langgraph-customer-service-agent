@@ -1,0 +1,9 @@
+# coding: utf-8
+# 依赖（Python 3.12，版本已钉死）
+# 安装命令：pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+langgraph==0.2.60                      # Agent 编排框架（图、节点、边、中断、检查点）
+langgraph-checkpoint==2.1.2            # langgraph 的核心检查点库，一并钉死，避免自动解析到过新版本导致中断行为变化
+langgraph-checkpoint-sqlite==2.0.10    # sqlite 版 checkpointer：多轮记忆持久化
+openai==1.58.1                         # OpenAI 兼容 SDK，调对话模型与 Embedding API
+chromadb==0.5.23                       # 知识库向量检索（免安装）
